@@ -15,7 +15,6 @@ phases:
   pre_build:
     commands:
       - echo Starting pre-build phase...
-      - composer install --prefer-dist --no-ansi --no-interaction --no-progress
       - cp .env.example .env
       - sudo chmod -R 777 bootstrap/cache
       - sudo chmod -R 777 storage
