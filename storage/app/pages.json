@@ -1,0 +1,70 @@
+[ 
+    {
+        "id": 1,
+        "page_name": "Home",
+        "page_title": "Software Development Company in Dubai | Crystawall Technologies",
+        "page_description": "Dubai's premier digital innovation hub, empowering small and medium businesses on Mobile application development, Web development, UI\/UX design and software consultation.",
+        "page_keyword": "software, IT solutions, crystawall technologies, software company in dubai, software in dubai, IT solutions in dubai, web design, mobile development, ui & ux design, graphic design, sotware consultation, dubai,",
+        "slug": "home",
+        "page_image": null,
+        "image_height": null,
+        "image_width": null
+    },
+
+    {
+        "id": 2,
+        "page_name": "About",
+        "page_title": "About Us | Design & Development Company in Dubai",
+        "page_description": "See who we are at Crystawall Technologies, offering top-notch software development, web design, and mobile app development services in Dubai.",
+        "page_keyword": "Crystawall Technologies, about us, software company Dubai, Dubai software company, IT solutions Dubai, web development Dubai",
+        "slug": "about-us",
+        "page_image": null,
+        "image_height": null,
+        "image_width": null
+    },
+    {
+        "id": 3,
+        "page_name": "Contact",
+        "page_title": "Contact Us | Software Company in Dubai ",
+        "page_description": "Have a project in mind? Reach out to Crystawall for world-class software solutions. Our contact information is available for your convenience",
+        "page_keyword": "contact us, Crystawall Technologies, Dubai software company, contact Dubai software company, software development Dubai, contact form",
+        "slug": "contact-us",
+        "page_image": null,
+        "image_height": null,
+        "image_width": null
+    },
+    {
+        "id": 4,
+        "page_name": "Services",
+        "page_title": "Mobile & Web Development Services in Dubai | Crystawall Tech",
+        "page_description": "Crystawall Technologies offers top-notch software solutions tailored to your business needs. Discover our services: web development, mobile apps, and UI\/UX design",
+        "page_keyword": "Crystawall Technologies, software solutions Dubai, Dubai software services, web development services, mobile app development services, UI\/UX design services",
+        "slug": "services",
+        "page_image": null,
+        "image_height": null,
+        "image_width": null
+    },
+    {
+        "id": 5,
+        "page_name": "Careers",
+        "page_title": "Careers - Find your path with us | Crystawall Tech",
+        "page_description": "We embrace a flat organizational structure, empowering our team members with full ownership and accountability for their work, allowing for innovative ideas and impactful results",
+        "page_keyword": "careers, Crystawall Technologies, Dubai software company, contact Dubai software company, software development Dubai, contact form",
+        "slug": "careers",
+        "page_image": null,
+        "image_height": null,
+        "image_width": null
+    },
+    {
+        "id": 6,
+        "page_name": "Life at Crystawall",
+        "page_title": "Life At Crystawall | Software Innovation in Dubai",
+        "page_description": "Crystawall\u2019s culture is designed to inspire, with open spaces that encourage teamwork, idea-sharing, and spontaneous brainstorming sessions",
+        "page_keyword": "Crystawall Technologies, software solutions Dubai, Dubai software services, web development services, mobile app development services, UI\/UX design services",
+        "slug": "life-at-crystawall",
+        "page_image": null,
+        "image_height": null,
+        "image_width": null
+    }
+    
+]
