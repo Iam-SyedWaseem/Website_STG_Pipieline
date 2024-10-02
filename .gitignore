@@ -7,7 +7,6 @@
 !storage/app/countries.json
 !storage/app/pages.json
 /vendor
-.env
 .env.server
 .env.example.
 .env.production
