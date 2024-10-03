@@ -19,10 +19,10 @@ phases:
       - sudo chmod -R 777 storage
       - php artisan config:clear
       - echo Testing MySQL connection...
-      - echo DB_HOST=$DB_HOST
+      - echo DB_HOST=ec2-34-234-208-116.compute-1.amazonaws.com
       - echo DB_USERNAME=$DB_USERNAME
       - echo DB_PASSWORD=$DB_PASSWORD
-      - mysql -h $DB_HOST -u $DB_USERNAME -p$DB_PASSWORD -e "SHOW DATABASES;" || echo "Failed to connect to database"
+      - mysql -h ec2-34-234-208-116.compute-1.amazonaws.com -u $DB_USERNAME -p$DB_PASSWORD -e "SHOW DATABASES;" || echo "Failed to connect to database"
 
   build:
     commands:
