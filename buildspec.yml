@@ -9,7 +9,8 @@ phases:
       - composer --version
       - composer install --no-dev --prefer-dist --optimize-autoloader
       - echo Installing MySQL client
-      - yum install -y mysql
+      - if command -v yum >/dev/null; then yum install -y mysql; fi
+      - if command -v apt-get >/dev/null; then apt-get update && apt-get install -y mysql-client; fi
 
   pre_build:
     commands:
