@@ -15,6 +15,9 @@ phases:
       - sudo chmod -R 777 bootstrap/cache
       - sudo chmod -R 777 storage
       - php artisan config:clear
+      # Testing MySQL connectivity
+      - echo Testing MySQL connection...
+      - mysql -h $DB_HOST -u $DB_USERNAME -p$DB_PASSWORD -e "SHOW DATABASES;" || echo "Failed to connect to database"
 
   build:
     commands:
@@ -35,3 +38,4 @@ cache:
   paths:
     - vendor/**/*
     - node_modules/**/*
+
