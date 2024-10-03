@@ -8,6 +8,8 @@ phases:
       - echo Installing dependencies
       - composer --version
       - composer install --no-dev --prefer-dist --optimize-autoloader
+      - echo Installing MySQL client
+      - yum install -y mysql
 
   pre_build:
     commands:
