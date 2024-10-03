@@ -18,8 +18,10 @@ phases:
       - sudo chmod -R 777 bootstrap/cache
       - sudo chmod -R 777 storage
       - php artisan config:clear
-      # Testing MySQL connectivity
       - echo Testing MySQL connection...
+      - echo DB_HOST=$DB_HOST
+      - echo DB_USERNAME=$DB_USERNAME
+      - echo DB_PASSWORD=$DB_PASSWORD
       - mysql -h $DB_HOST -u $DB_USERNAME -p$DB_PASSWORD -e "SHOW DATABASES;" || echo "Failed to connect to database"
 
   build:
